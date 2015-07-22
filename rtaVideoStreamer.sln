@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rtaVideoStreamer", "rtaVideoStreamer\rtaVideoStreamer.csproj", "{2D41383D-99E1-45B9-AF0A-4F54AE20A46F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rtaNetworking.Streaming", "rtaNetworking.Streaming\rtaNetworking.Streaming.csproj", "{F961A5DF-7AE0-43F3-8CA3-01340D4A815F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETAGReader", "..\..\hwacom\停車場\RFID\ETAGReader\ETAGReader\ETAGReader.csproj", "{51495637-0BA6-4665-868A-A30A97771677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "riaServer", "riaServer\riaServer.csproj", "{E55B7AD3-5661-4096-A128-8412E39EF71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiaService", "RiaService\RiaService.csproj", "{3A744256-A649-4C5D-9C1C-7B062D3ECDFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MjpegProcessor", "..\..\hwacom\機房門禁\slSecureAndPD\mjpeg-101253\MJPEG\MjpegProcessor\MjpegProcessor.csproj", "{ADC20CFA-93C9-4F69-A7B7-D19CF455A9D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D41383D-99E1-45B9-AF0A-4F54AE20A46F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D41383D-99E1-45B9-AF0A-4F54AE20A46F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D41383D-99E1-45B9-AF0A-4F54AE20A46F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D41383D-99E1-45B9-AF0A-4F54AE20A46F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F961A5DF-7AE0-43F3-8CA3-01340D4A815F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F961A5DF-7AE0-43F3-8CA3-01340D4A815F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F961A5DF-7AE0-43F3-8CA3-01340D4A815F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F961A5DF-7AE0-43F3-8CA3-01340D4A815F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51495637-0BA6-4665-868A-A30A97771677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51495637-0BA6-4665-868A-A30A97771677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51495637-0BA6-4665-868A-A30A97771677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51495637-0BA6-4665-868A-A30A97771677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55B7AD3-5661-4096-A128-8412E39EF71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55B7AD3-5661-4096-A128-8412E39EF71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55B7AD3-5661-4096-A128-8412E39EF71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55B7AD3-5661-4096-A128-8412E39EF71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A744256-A649-4C5D-9C1C-7B062D3ECDFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A744256-A649-4C5D-9C1C-7B062D3ECDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A744256-A649-4C5D-9C1C-7B062D3ECDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A744256-A649-4C5D-9C1C-7B062D3ECDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC20CFA-93C9-4F69-A7B7-D19CF455A9D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC20CFA-93C9-4F69-A7B7-D19CF455A9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC20CFA-93C9-4F69-A7B7-D19CF455A9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC20CFA-93C9-4F69-A7B7-D19CF455A9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
