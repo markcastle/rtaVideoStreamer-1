@@ -14,5 +14,15 @@ namespace RiaService
          [OperationContract]
         [WebGet(UriTemplate="/jpg/{ch}/image.jpg")]
            Stream jpg(string ch);
+
+         [OperationContract]
+         [WebGet]
+         void EnableETagEffect(bool IsEnable);
+
+         [OperationContract]
+         [WebGet(ResponseFormat = WebMessageFormat.Json)]
+         bool GetIsEnableETagEffect();
+
+        
     }
 }

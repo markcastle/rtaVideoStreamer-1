@@ -8,7 +8,7 @@ namespace RiaService
      //  public delegate void OnETagComingEventHandler(object sender, string etagid);
 
 
-    enum ConstExecuteMode
+   public enum ConstExecuteMode
     {
         Normal,
         Stop
@@ -63,6 +63,12 @@ namespace RiaService
            foreach (RiaObject obj in objList)
                obj.Resume();
        }
+
+       public static ConstExecuteMode GetExecutionMode()
+       {
+           return ExecuteMode;
+       }
+
        public static void EnableETagEffect()
        {
            ExecuteMode = ConstExecuteMode.Normal;

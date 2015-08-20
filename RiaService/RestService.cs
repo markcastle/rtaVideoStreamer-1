@@ -43,5 +43,21 @@ namespace RiaService
             return ms;
 
         }
+
+
+        public void EnableETagEffect(bool IsEnable)
+        {
+            if (IsEnable)
+                RiaObject.EnableETagEffect();
+            else
+                RiaObject.DisableETagEffect();
+        }
+
+        public bool GetIsEnableETagEffect()
+        {
+
+            return (RiaObject.GetExecutionMode() == ConstExecuteMode.Normal);
+           // throw new NotImplementedException();
+        }
     }
 }
