@@ -260,7 +260,9 @@ namespace RiaService
                 }
                 catch (Exception ex)
                 {
+                    
                     Console.WriteLine(ex.Message + "," + ex.StackTrace);
+                    System.Threading.Thread.Sleep(5000);
                 };
                
 
